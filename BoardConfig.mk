@@ -22,6 +22,9 @@ DEVICE_PATH := device/motorola/river
 # Assertions
 TARGET_OTA_ASSERT_DEVICE := river
 
+# Display
+TARGET_SCREEN_DENSITY := 420
+
 # Kernel
 TARGET_KERNEL_CONFIG := river_defconfig
 
