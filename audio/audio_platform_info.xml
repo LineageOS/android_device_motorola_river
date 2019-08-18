@@ -34,6 +34,7 @@
 	<device name="SND_DEVICE_IN_SPEAKER_DMIC_NS" acdb_id="43" />
 	<device name="SND_DEVICE_IN_CAPTURE_FM" acdb_id="43" />
 	<device name="SND_DEVICE_IN_HEADSET_MIC_AEC" acdb_id="47" />
+    <device name="SND_DEVICE_IN_HEADSET_MIC_FLUENCE" acdb_id="47"/>
 	<device name="SND_DEVICE_IN_VOICE_REC_MIC_AEC" acdb_id="62" />
 	<device name="SND_DEVICE_IN_VOICE_REC_MIC_NS" acdb_id="62" />
 	<device name="SND_DEVICE_IN_HANDSET_DMIC_AEC" acdb_id="111" />
