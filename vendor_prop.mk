@@ -1,20 +1,20 @@
 #
-# vendor props for river
+# vendor props for ocean
 #
 
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.vendor.audio.calfile0=/vendor/etc/acdbdata/Bluetooth_cal.acdb \
-    persist.vendor.audio.calfile1=/vendor/etc/acdbdata/General_cal.acdb \
-    persist.vendor.audio.calfile2=/vendor/etc/acdbdata/Global_cal.acdb \
-    persist.vendor.audio.calfile3=/vendor/etc/acdbdata/Handset_cal.acdb \
-    persist.vendor.audio.calfile4=/vendor/etc/acdbdata/Hdmi_cal.acdb \
-    persist.vendor.audio.calfile5=/vendor/etc/acdbdata/Headset_cal.acdb \
-    persist.vendor.audio.calfile6=/vendor/etc/acdbdata/Speaker_cal.acdb
+    persist.vendor.audio.calfile0=/vendor/etc/acdbdata/common/Bluetooth_cal.acdb \
+    persist.vendor.audio.calfile1=/vendor/etc/acdbdata/common/General_cal.acdb \
+    persist.vendor.audio.calfile2=/vendor/etc/acdbdata/common/Global_cal.acdb \
+    persist.vendor.audio.calfile3=/vendor/etc/acdbdata/common/Handset_cal.acdb \
+    persist.vendor.audio.calfile4=/vendor/etc/acdbdata/common/Hdmi_cal.acdb \
+    persist.vendor.audio.calfile5=/vendor/etc/acdbdata/common/Headset_cal.acdb \
+    persist.vendor.audio.calfile6=/vendor/etc/acdbdata/common/Speaker_cal.acdb
 
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.hardware.sensors=river \
+    ro.hardware.sensors=ocean \
     ro.vendor.sensors.amd=false \
     ro.vendor.sensors.facing=false \
     ro.vendor.sensors.mot_detect=true \
@@ -32,4 +32,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=420
+    ro.sf.lcd_density=320
