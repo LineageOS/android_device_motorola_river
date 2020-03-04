@@ -33,3 +33,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=320
+
+# Perf
+PRODUCT_PRODUCT_PROPERTIES += \
+    sys.use.fifo_ui=1
