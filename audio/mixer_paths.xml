@@ -23,20 +23,20 @@
 	<ctl name="RX HPH Mode" value="NORMAL" />
 	<ctl name="COMP0 RX1" value="0" />
 	<ctl name="COMP0 RX2" value="0" />
-	<ctl name="RX1 Digital Volume" value="84" />
-	<ctl name="RX2 Digital Volume" value="84" />
-	<ctl name="RX3 Digital Volume" value="84" />
+	<ctl name="RX1 Digital Volume" value="89" />
+	<ctl name="RX2 Digital Volume" value="89" />
+	<ctl name="RX3 Digital Volume" value="89" />
 	<ctl name="IIR1 INP1 MUX" value="ZERO" />
-	<ctl name="IIR1 INP1 Volume" value="84" />
-	<ctl name="IIR1 INP2 Volume" value="84" />
-	<ctl name="IIR1 INP3 Volume" value="84" />
-	<ctl name="IIR1 INP4 Volume" value="84" />
+	<ctl name="IIR1 INP1 Volume" value="89" />
+	<ctl name="IIR1 INP2 Volume" value="89" />
+	<ctl name="IIR1 INP3 Volume" value="89" />
+	<ctl name="IIR1 INP4 Volume" value="89" />
 	<ctl name="ADC1 Volume" value="4" />
 	<ctl name="ADC2 Volume" value="4" />
 	<ctl name="ADC3 Volume" value="4" />
 	<ctl name="ADC1_INP1 Switch" value="0" />
-	<ctl name="DEC1 Volume" value="84" />
-	<ctl name="DEC2 Volume" value="84" />
+	<ctl name="DEC1 Volume" value="89" />
+	<ctl name="DEC2 Volume" value="89" />
 	<ctl name="DEC2 MUX" value="ZERO" />
 	<ctl name="DEC1 MUX" value="ZERO" />
 	<ctl name="ADC2 MUX" value="ZERO" />
