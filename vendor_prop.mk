@@ -33,3 +33,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=420
+
+# Set display color mode to Natural by default
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.sf.color_saturation=1.0 \
+    persist.sys.sf.native_mode=0
