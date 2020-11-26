@@ -51,6 +51,7 @@ on property:ro.boot.hardware.sku=XT1962-6
 # Custom NFC Service
 service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
     interface android.hardware.nfc@1.2::INfc default
+    override
     class hal
     user nfc
     group nfc
