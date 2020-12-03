@@ -266,6 +266,9 @@ vendor/firmware/cpp_firmware_v1_5_2.fw
 vendor/firmware/cpp_firmware_v1_6_0.fw
 vendor/firmware/cpp_firmware_v1_8_0.fw
 
+# Offmode charging
+vendor/bin/charge_only_mode
+
 # Display calib
 vendor/etc/qdcm_calib_data_mipi_mot_vid_boe_1080p_624.xml|5ffff6f0ed89bad0883d1a8f6b8eac1fab27555a
 vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_624.xml|3539bafaf833fcb2352524ad83915b8a9d3a908c
