@@ -28,6 +28,9 @@
 on init && property:ro.boot.hardware.sku=XT1962-5
     setprop ro.boot.product.hardware.sku nfc
 
+on boot && property:ro.boot.product.hardware.sku=nfc
+    start nfc_hal_service
+
 # Google Fi
 on property:ro.carrier=fi
     setprop ro.vendor.radio.ims_version TA3.0_IR92_V10.0
@@ -44,3 +47,11 @@ on property:ro.boot.hardware.sku=XT1962-5
 
 on property:ro.boot.hardware.sku=XT1962-6
     setprop ro.radio.imei.sv 13
+
+# Custom NFC Service
+service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
+    interface android.hardware.nfc@1.2::INfc default
+    class hal
+    user nfc
+    group nfc
+    disabled
