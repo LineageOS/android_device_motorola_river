@@ -82,7 +82,7 @@ PRODUCT_PACKAGES += \
     Tag \
     SecureElement \
     android.hardware.nfc@1.2-service \
-    android.hardware.secure_element@1.1-service-disabled
+    android.hardware.secure_element@1.2-service-disabled
 
 # Sensors
 PRODUCT_COPY_FILES += \
