@@ -29,7 +29,7 @@ on init && property:ro.boot.hardware.sku=XT1962-5
     setprop ro.boot.product.hardware.sku nfc
 
 on boot && property:ro.boot.product.hardware.sku=nfc
-    start nfc_hal_service
+    start vendor.nfc_hal_service
 
 # Google Fi
 on property:ro.carrier=fi
