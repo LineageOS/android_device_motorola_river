@@ -32,7 +32,8 @@ PRODUCT_NAME := lineage_river
 PRODUCT_MODEL := moto g(7)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-        PRODUCT_NAME=river
+        PRODUCT_NAME=river_retail \
+        PRIVATE_BUILDS_DESC="river_retail-user 10 QPUS30.52-33-11 df129 release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := motorola/river_retail/river:10/QPUS30.52-33-11/df129:user/release-keys
