@@ -367,6 +367,10 @@ vendor/firmware/crus_sp_rx5.bin
 vendor/firmware/crus_sp_rx6.bin
 vendor/firmware/crus_sp_rx7.bin
 
+# Sensors
+vendor/lib/sensors.ssc.so
+vendor/lib64/sensors.ssc.so
+
 # Sound Card - Marley Firmware
 vendor/firmware/marley-dsp1-ultrasound.bin
 vendor/firmware/marley-dsp1-ultrasound.wmfw
