@@ -81,9 +81,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
-    NfcNci \
     Tag \
-    SecureElement \
     android.hardware.nfc@1.2-service
 
 # Sensors
