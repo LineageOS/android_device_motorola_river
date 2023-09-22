@@ -2,7 +2,7 @@
 ## are from river_retail (QPUS30.52-33-11).
 
 # Audio (Prebuilt Audio HAL)
-vendor/lib/hw/audio.primary.msm8953.so
+vendor/lib/hw/audio.primary.msm8953.so:vendor/lib/hw/audio.primary.msm8953-moto.so
 vendor/lib/libadm.so
 vendor/lib/libdapparamstorage.so
 vendor/lib/libmotaudioutils.so
@@ -13,7 +13,8 @@ vendor/lib/soundfx/libmmieffectswrapper.so
 vendor/lib/soundfx/libspeakerbundle.so
 vendor/lib/soundfx/libswdap.so
 vendor/lib/vendor.dolby.hardware.dms@1.0.so
-vendor/lib/vndk/libtinyalsa.so:vendor/lib/libtinyalsa.so
+vendor/lib/vndk/libtinyalsa.so:vendor/lib/libtinyalsa-moto.so
+vendor/lib64/vndk/libtinyalsa.so:vendor/lib64/libtinyalsa-moto.so
 
 # Audio - ACDB
 vendor/etc/acdbdata/Bluetooth_cal.acdb
