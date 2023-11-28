@@ -20,7 +20,7 @@
 DEVICE_PATH := device/motorola/river
 
 # Assertions
-TARGET_BOARD_INFO_FILE := device/motorola/river/board-info.txt
+TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 TARGET_OTA_ASSERT_DEVICE := river
 
 # Display
