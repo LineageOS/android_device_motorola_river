@@ -13,7 +13,7 @@ vendor/lib/soundfx/libmmieffectswrapper.so
 vendor/lib/soundfx/libspeakerbundle.so
 vendor/lib/soundfx/libswdap.so
 vendor/lib/vendor.dolby.hardware.dms@1.0.so
-vendor/lib/vndk/libtinyalsa.so
+vendor/lib/vndk/libtinyalsa.so:vendor/lib/libtinyalsa.so
 
 # Audio - ACDB
 vendor/etc/acdbdata/Bluetooth_cal.acdb
