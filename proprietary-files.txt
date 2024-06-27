@@ -9,6 +9,7 @@ vendor/lib/libmotaudioutils.so
 vendor/lib/libsensorndkbridge.so
 vendor/lib/libtinycompress_vendor.so
 vendor/lib/libunshorten.so
+vendor/lib/motorola.hardware.audio.adspd@1.0-impl.so
 vendor/lib/soundfx/libmmieffectswrapper.so
 vendor/lib/soundfx/libspeakerbundle.so
 vendor/lib/soundfx/libswdap.so
