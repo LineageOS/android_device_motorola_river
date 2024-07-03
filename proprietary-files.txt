@@ -10,7 +10,7 @@ vendor/lib/libsensorndkbridge.so
 vendor/lib/libtinycompress_vendor.so
 vendor/lib/libunshorten.so
 vendor/lib/soundfx/libmmieffectswrapper.so
-vendor/lib/soundfx/libspeakerbundle.so
+vendor/lib/soundfx/libspeakerbundle.so|af862a0f01a2c2134dffeb47dd6b6dbd6d2efd39
 vendor/lib/soundfx/libswdap.so
 vendor/lib/vendor.dolby.hardware.dms@1.0.so
 vendor/lib/vndk/libtinyalsa.so:vendor/lib/libtinyalsa.so
@@ -192,7 +192,7 @@ vendor/firmware/cpp_firmware_v1_6_0.fw
 vendor/firmware/cpp_firmware_v1_8_0.fw
 
 # Camera - GPU
-vendor/lib/libmot_gpu_mapper.so
+vendor/lib/libmot_gpu_mapper.so|7c3e8f915ae55f4d0a945e3bfc26b634158bc176
 
 # Camera - mmcamera
 vendor/lib/libmmcamera2_c2d_module.so
@@ -205,7 +205,7 @@ vendor/lib/libmmcamera2_isp_modules.so
 vendor/lib/libmmcamera2_mct.so
 vendor/lib/libmmcamera2_mct_shimlayer.so
 vendor/lib/libmmcamera2_pp_buf_mgr.so
-vendor/lib/libmmcamera2_pproc_modules.so
+vendor/lib/libmmcamera2_pproc_modules.so|c905402bba49a5999cda2c1b3d1778bdcc9f0fa7
 vendor/lib/libmmcamera2_q3a_core.so
 vendor/lib/libmmcamera2_sensor_modules.so
 vendor/lib/libmmcamera2_stats_algorithm.so
@@ -284,7 +284,7 @@ vendor/lib/libmmcamera_tuning_lookup.so
 vendor/lib/libmmcamera_vstab_module.so
 
 # Offmode charging
-vendor/bin/charge_only_mode
+vendor/bin/charge_only_mode|0162f408598ec9342d1396eaf60cb85cee296112
 
 # Display Calibrations
 vendor/etc/qdcm_calib_data_mipi_mot_vid_boe_1080p_624.xml|5ffff6f0ed89bad0883d1a8f6b8eac1fab27555a
@@ -321,8 +321,8 @@ vendor/firmware/crus_sp_rx7.bin
 vendor/lib64/libpn553_fw.so
 
 # Sensors
-vendor/lib/sensors.ssc.so
-vendor/lib64/sensors.ssc.so
+vendor/lib/sensors.ssc.so|de1d1d944d9b33dd098aa6374bff41b34a1332ad
+vendor/lib64/sensors.ssc.so|dede71f1f2a8131ff6e2d37b69f66e2439ce3893
 
 # Sound Card (Marley)
 vendor/firmware/marley-dsp1-ultrasound.bin
