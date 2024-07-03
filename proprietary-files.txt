@@ -317,6 +317,9 @@ vendor/firmware/crus_sp_rx5.bin
 vendor/firmware/crus_sp_rx6.bin
 vendor/firmware/crus_sp_rx7.bin
 
+# MotCamera2
+product/priv-app/MotCamera2/MotCamera2.apk;PRESIGNED
+
 # NFC
 vendor/lib64/libpn553_fw.so
 
