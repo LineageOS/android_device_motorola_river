@@ -70,7 +70,6 @@ vendor/lib/libqomx_jpegenc.so
 vendor/lib/libqomx_jpegenc_pipe.so
 vendor/lib/libremosaic_daemon.so
 vendor/lib/libseemore.so
-vendor/lib/libseemore.so
 
 # Camera - Chromatix
 vendor/lib/libchromatix_mot_ov12a10_common.so
